@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Caixa VUE</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.7.14/dist/vue.js"></script>
+</head>
+<body>
+    <div id="bank">
+        <p><strong>Caixa Eletronico</strong></p>
+        <h1>{{saldo}}</h1>
+        <button @click="depositar">Deposito</button>
+        <br>
+        <button @click="sacar">Sacar</button>
+    </div>
+
+
+    <script src="index.js"></script>
+</body>
+</html>
